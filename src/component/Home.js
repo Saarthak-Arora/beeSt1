@@ -7,8 +7,9 @@ const Home = () => {
       <div className="i-sk">
         <div className="text">
           <h1>
-            Kickstart your learning with us !! Here are some knowlegeable blogs
-            on most loved language of todays era of web -- javascript.
+            Kickstart your learning with us !! Here are some knowledgeable blogs
+            on most loved language of todays era of web --
+            <b>JAVASCRIPT</b>
             <br />
             You are always welcome to contribute your articles and spread
             knowledge all over the world

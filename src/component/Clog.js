@@ -14,7 +14,7 @@ const Clog = (props) => {
             {props.content}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">{props.author}</cite>
+            Author - <cite title="Source Title">{props.author}</cite>
           </footer>
         </blockquote>
       </Card.Body>
