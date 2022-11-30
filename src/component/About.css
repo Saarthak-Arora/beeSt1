@@ -1,0 +1,9 @@
+.about{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1076945/retina_1708x683_javascript_issues-a3d6df8b947d51f5e3613faff9378083.png');
+    opacity: .7;
+    color: aliceblue;
+    background-repeat: no-repeat;
+}

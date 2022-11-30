@@ -1,0 +1,11 @@
+.nav{
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%; 
+    z-index: 1;
+    border: 2px solid black;
+    /* border-radius: 0.8rem; */
+}
+.navCont{
+    color: aliceblue;
+}
