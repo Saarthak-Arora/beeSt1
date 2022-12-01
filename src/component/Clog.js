@@ -1,9 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Card from 'react-bootstrap/Card';
-import './clog.css'
+import './clog.css';
+
+// const fs  = require('fs');
+
 
 
 const Clog = (props) => {
+ 
   return (
     <>
     <Card className='card'>
