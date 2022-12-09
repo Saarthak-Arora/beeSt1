@@ -1,6 +1,6 @@
 .blogContainer{
     display: flex;
-    /* background-color: aquamarine; */
+    background-color: black;
     flex-direction: column;
     align-items: center;
     

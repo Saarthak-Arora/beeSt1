@@ -28,12 +28,17 @@ const WritePost = () => {
                   content:conten};
 
     const t =   JSON.stringify(blog);
-    axios.post('http://localhost:3000/clog/createPost',t)
-    // fetch('http://localhost:3000/clog/createPost',{
-    //   method : 'POST',
-    //   headers:{'Content-type' : 'application/json'},
-    //   body: JSON.stringify(blog),
-    // }).then(console.log("added"))
+    console.log(t);
+    axios({
+      method: 'post',
+      url: 'http://localhost:3000/clog/createPost',
+      data: blog,
+    }).then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
    
   
   }
@@ -45,7 +50,7 @@ const WritePost = () => {
 
 
 
-  <form onSubmit={handleSubmit}>
+  <form method="post" onSubmit={handleSubmit}>
     <label>Enter your name:
     <input 
       type="text" 
